@@ -7,31 +7,29 @@
     <title>Document</title>
 </head>
 <body>
+
+
     <script>
         
         document.write('Total Subject - 5 <br> Total Marks - 500 <br> ');
 
 
-        function total(Math,english,Science,Hindi,Marathi)
-        
-        {
-            var a = (Math+english+Science+Hindi+Marathi);
+        function total(Math,english,Science,Hindi,Marathi) {
+            var a = Math+english+Science+Hindi+Marathi;
             return a;
         }
 
-        var b = (50+67+50+50+50);
+        var b =add(50+67+50+50+50);
         document.write('Marks Obtain - '+b+'<br>');
 
 
-        function Percentage(p)
-        
-        {
+        function Percentage(p){
             var c = p/500*100;
             return c;
 
 
         }
-        var d = percentage(c);
+        var d = percentage(b);
 
         document.write('percentage -' + d + '%');
     </script>
